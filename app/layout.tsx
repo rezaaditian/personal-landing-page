@@ -1,6 +1,16 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+// Urutan: normalize → Bootstrap → tema → responsive (agar tema override Tailwind)
+import "../public/css/normalize.css";
+import "../public/css/bootstrap.min.css";
+import "../public/css/all.min.css";
+import "../public/css/style.css";
+import "../public/css/owl.carousel.css";
+import "../public/css/owl.theme.default.min.css";
+import "../public/css/magnific-popup.css";
+import "../public/css/responsive.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +34,43 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* <!-- Fonts (google font) --> */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+        {/* Favicon */}
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased home-one-body`}
       >
         {children}
+
+        {/* <!-- Preloader --> */}
+        {/* <div className="loader-mask">
+            <div className="loader">
+                <div></div>
+                <div></div>
+            </div>
+        </div> */}
+
+        {/* Scripts load after page is interactive; order preserved for jQuery deps */}
+        <Script src="/js/jquery-3.6.4.min.js" strategy="afterInteractive" />
+        <Script src="/js/bootstrap.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.magnific-popup.min.js" strategy="afterInteractive" />
+        <Script src="/js/owl.carousel.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.meanmenu.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.lineProgressbar.js" strategy="afterInteractive" />
+        <Script src="/js/multi-animated-counter.js" strategy="afterInteractive" />
+        <Script src="/js/onepageNav.js" strategy="afterInteractive" />
+        <Script src="/js/all.min.js" strategy="afterInteractive" />
+        <Script src="/js/aos.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.animatedheadline.min.js" strategy="afterInteractive" />
+        <Script src="/js/mixitup.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.waypoints.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.counterup.min.js" strategy="afterInteractive" />
+        <Script src="/js/main.js" strategy="afterInteractive" />
       </body>
     </html>
   );
