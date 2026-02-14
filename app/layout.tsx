@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// Urutan: normalize → Bootstrap → tema → responsive (agar tema override Tailwind)
 import "../public/css/normalize.css";
 import "../public/css/bootstrap.min.css";
 import "../public/css/all.min.css";

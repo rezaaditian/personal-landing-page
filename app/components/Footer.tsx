@@ -8,16 +8,12 @@ const Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
-                                <div className="footer-col-one">
+                                {/* <div className="footer-col-one">
                                     <img src="img/LogoWhite.png" className="footer-logo" alt="footer logo"/>
-                                    <p className="p text-white line-height-7 mb-30 footer-col-one-texts">
-                                        At vero eos et accusamus et iusto odio dign ducimus qui blanditiis praesentium
-                                        volup deleniti atque corrupti quos dolores et molestias excepturi sint occaecati
-                                    </p>
                                     <h3 className="h3 fw-500 line-height-3 text-white fw-500">
-                                        credesign@gmail.com
+                                        rezaaditian24@gmail.com
                                     </h3>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-6 col-sm-6 col-lg-2 mt-5 mt-lg-0">
                                 <h4 className="h4 fw-500 text-white">
@@ -29,14 +25,8 @@ const Footer = () => {
                                             <a className="fw-400 p line-height-7 text-white" href="about.html">About</a>
                                         </li>
                                         <li className="footer-link-item">
-                                            <a className="fw-400 p line-height-7 text-white" href="resume.html">Resume</a>
-                                        </li>
-                                        <li className="footer-link-item">
                                             <a className="fw-400 p line-height-7 text-white"
                                                 href="portfolio.html">Portfolio</a>
-                                        </li>
-                                        <li className="footer-link-item">
-                                            <a className="fw-400 p line-height-7 text-white" href="blog.html">Blog</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -68,7 +58,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
                                 <h4 className="h4 fw-500 text-white">
-                                    Follow me
+                                    Contact me
                                 </h4>
                                 <div className="footer-social-media">
                                     <ul className="footer-social-container d-flex align-items-center mb-35">
@@ -128,8 +118,11 @@ const Footer = () => {
                             <div className="row">
                                 <div className="footerbottom-left col-12 col-sm-5 col-md-6 text-start">
                                     <p className="p text-white line-height-7">
-                                        All rights reserved &copy; 2023 Credesign
+                                        All rights reserved &copy; 2025 Reza Aditia
                                     </p>
+                                    <h5 className="h5 mt-2 fw-500 line-height-3 text-white fw-500">
+                                        rezaaditian24@gmail.com
+                                    </h5>
                                 </div>
                                 <div className="footerbottom-right col-12 col-sm-7 col-md-6">
                                     <ul className="d-flex justify-content-sm-end">
