@@ -3,31 +3,41 @@
 const Banner = () => {
     return (
         <section className="home-banner position-relative">
-            <div className="container-fluid custom-container">
+            <div className="container-fluid custom-container pt-8">
                 <div className="row">
                     <div className="col-12">
                         <div className="home-banner-wrapper row align-items-center">
                             <div className="col-12 col-lg-6 col-xl-7 home-banner-text-col position-relative">
-                                <div className="sub-heading d-flex align-items-center">
-                                    <img src="img/orangeDot.png" alt="orange-dot"/>
-                                    <p>I AM DESIGNER</p>
+                            <div className="sub-heading d-flex align-items-center">
+                                <img src="img/orangeDot.png" alt="orange-dot" />
+                                <p>I AM REZA ADITIA</p>
                                 </div>
+
                                 <div className="animate-heading">
-                                    <h1 className="black-color h1 home-one-title ah-headline">Creative Design and Web <span
-                                        className="orange-color"><span className="ah-words-wrapper"> 
-                                            <b className="is-visible"> Solutions</b>
-                                            <b>Design</b>
-                                        </span></span> 
-                                        <br/>
-                                    </h1>
+                                <h1 className="black-color h1 home-one-title ah-headline">
+                                    Building Scalable Web and Modern <br/>{" "}
+                                    <span className="orange-color">
+                                    <span className="ah-words-wrapper">
+                                        <b className="is-visible">Applications</b>
+                                        <b>Systems</b>
+                                    </span>
+                                    </span>
+                                    <br />
+                                </h1>
                                 </div>
+
                                 <p className="h5 line-height-7 mt-20 secondary-black fw-400">
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
-                                    minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis
-                                    dolor repellendus. Temporibus autem quibusdam et.
+                                    Fullstack developer focused on building scalable SaaS platforms, automation
+                                    systems, and high-performance web applications. Experienced in React, Next.js,
+                                    Vue, Laravel, Node.js, and AI integration. Delivering clean architecture,
+                                    efficient systems, and real-world business solutions.
                                 </p>
-                                <a className="btn_effect btn home-banner-btn orange-btn mt-50" href="resume.html"><span
-                                        className="z-1 position-relative">Download My CV</span>
+
+                                <a
+                                className="btn_effect btn home-banner-btn orange-btn mt-50 mb-4"
+                                href="/resume.pdf"
+                                >
+                                <span className="z-1 position-relative">Download My CV</span>
                                 </a>
                                 <div className="banner-particle-one-container">
                                     <img className="position-absolute banner-particle-one d-none d-lg-inline"
@@ -46,8 +56,8 @@ const Banner = () => {
 
                                 <img className="position-absolute home-banner-shape bg-move-3d"
                                     src="img/homeNannerShape.png" alt="banner-shape"/>
-                                <img className="img-fluid position-relative z-index-10 home-banner-img"
-                                    src="img/bannerImg.png" alt="banner-image"/>
+                                {/* <img className="img-fluid position-relative z-index-10 home-banner-img"
+                                    src="img/bannerImg.png" alt="banner-image"/> */}
                             </div>
                         </div>
                     </div>

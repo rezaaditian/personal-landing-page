@@ -26,7 +26,7 @@ const Footer = () => {
                                         </li>
                                         <li className="footer-link-item">
                                             <a className="fw-400 p line-height-7 text-white"
-                                                href="portfolio.html">Portfolio</a>
+                                                href="/portfolio">Portfolio</a>
                                         </li>
                                     </ul>
                                 </div>

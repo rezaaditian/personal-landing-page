@@ -21,25 +21,25 @@ const Portfolio = () => {
                                     <button type="button" className="control filter btn .outline-0 border-0 secondary-black"
                                         data-filter=".all">All</button>
                                     <button type="button" className="control filter btn .outline-0 border-0 secondary-black"
-                                        data-filter=".ui">UI/Ux Design</button>
+                                        data-filter=".fullstack">Fullstack Apps</button>
                                     <button type="button" className="control filter btn .outline-0 border-0 secondary-black"
-                                        data-filter=".branding">Branding Design</button>
+                                        data-filter=".saas">SaaS Platforms</button>
                                     <button type="button" className="control filter btn .outline-0 border-0 secondary-black"
-                                        data-filter=".graphic">Graphic Design</button>
+                                        data-filter=".api">API & Integrations</button>
                                     <button type="button" className="control filter btn .outline-0 border-0 secondary-black"
-                                        data-filter=".app">App Development</button>
+                                        data-filter=".automation">Automation Systems</button>
                                     <button type="button" className="control filter btn .outline-0 border-0 secondary-black"
-                                        data-filter=".web">Web Design</button>
+                                        data-filter=".web">Web Platforms</button>
                                 </div>
                                 <div className="portfolio-massonary-container">
                                     <div className="portfolio-massonary-items mix ui all position-relative">
-                                        <img className="img-fluid" src="img/portfolioOne.png" alt="portfolio-img"/>
+                                        <img className="img-fluid" src="img/portofolio/1.png" alt="portfolio-img"/>
                                         <div className="portfolio-card-overlay w-100 position-absolute top-0">
                                         </div>
                                         <div
                                             className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
                                             <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
+                                                <p className="text-white fw-400 line-height-7">Astro Music</p>
                                                 <a href="portfolioDetails.html"
                                                     className="h4 text-white fw-600 line-height-3">
                                                     The best way to impress your web
@@ -48,7 +48,7 @@ const Portfolio = () => {
                                         </div>
                                     </div>
                                     <div className="portfolio-massonary-items mix graphic all position-relative">
-                                        <img className="img-fluid" src="img/portfolioTwo.png" alt="portfolio-img"/>
+                                        <img className="img-fluid" src="img/portofolio/2.png" alt="portfolio-img"/>
                                         <div className="portfolio-card-overlay w-100 position-absolute top-0">
                                         </div>
                                         <div
@@ -63,7 +63,7 @@ const Portfolio = () => {
                                         </div>
                                     </div>
                                     <div className="portfolio-massonary-items mix ui graphic all position-relative">
-                                        <img className="img-fluid" src="img/portfolioThree.png" alt="portfolio-img"/>
+                                        <img className="img-fluid" src="img/portofolio/3.png" alt="portfolio-img"/>
                                         <div className="portfolio-card-overlay w-100 position-absolute top-0">
                                         </div>
                                         <div
@@ -78,7 +78,7 @@ const Portfolio = () => {
                                         </div>
                                     </div>
                                     <div className="portfolio-massonary-items mix web all position-relative">
-                                        <img className="img-fluid" src="img/portfolioFour.png" alt="portfolio-img"/>
+                                        <img className="img-fluid" src="img/portofolio/4.png" alt="portfolio-img"/>
                                         <div className="portfolio-card-overlay w-100 position-absolute top-0">
                                         </div>
                                         <div
@@ -93,7 +93,7 @@ const Portfolio = () => {
                                         </div>
                                     </div>
                                     <div className="portfolio-massonary-items mix app all position-relative">
-                                        <img className="img-fluid" src="img/portfolioFive.png" alt="portfolio-img"/>
+                                        <img className="img-fluid" src="img/portofolio/14.png" alt="portfolio-img"/>
                                         <div className="portfolio-card-overlay w-100 position-absolute top-0">
                                         </div>
                                         <div
@@ -108,7 +108,7 @@ const Portfolio = () => {
                                         </div>
                                     </div>
                                     <div className="portfolio-massonary-items mix branding all position-relative">
-                                        <img className="img-fluid" src="img/portfolioSix.png" alt="portfolio-img"/>
+                                        <img className="img-fluid" src="img/portofolio/24.jpg" alt="portfolio-img"/>
                                         <div className="portfolio-card-overlay w-100 position-absolute top-0">
                                         </div>
                                         <div
@@ -122,36 +122,14 @@ const Portfolio = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="portfolio-massonary-items mix web all position-relative">
-                                        <img className="img-fluid" src="img/portfolioSeven.png" alt="portfolio-img"/>
-                                        <div className="portfolio-card-overlay w-100 position-absolute top-0">
-                                        </div>
-                                        <div
-                                            className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
-                                            <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
-                                                <a href="portfolioDetails.html"
-                                                    className="h4 text-white fw-600 line-height-3">
-                                                    The best way to impress your web
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="portfolio-massonary-items mix app all position-relative">
-                                        <img className="img-fluid" src="img/portfolioEight.png" alt="portfolio-img"/>
-                                        <div className="portfolio-card-overlay w-100 position-absolute top-0">
-                                        </div>
-                                        <div
-                                            className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
-                                            <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
-                                                <a href="portfolioDetails.html"
-                                                    className="h4 text-white fw-600 line-height-3">
-                                                    The best way to impress your web
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                </div>
+                                <div className="d-flex justify-content-center mt-50">
+                                    <a
+                                        className="btn btn_effect home-banner-btn orange-btn"
+                                        href="/portfolio"
+                                    >
+                                        <span className="position-relative z-1">More Portfolio</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -14,8 +14,8 @@ export default function Home() {
 
         <About/>
         <Service/>
-        <Testimonial/>
         <Portfolio/>
+        <Testimonial/>
         <Footer/>
         
         {/* <!-- start contact --> */}
