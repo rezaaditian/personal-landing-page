@@ -54,7 +54,7 @@ const Portfolio = () => {
                                         <div
                                             className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
                                             <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
+                                                <p className="text-white fw-400 line-height-7">IFreelance</p>
                                                 <a href="portfolioDetails.html"
                                                     className="h4 text-white fw-600 line-height-3">
                                                     The best way to impress your web
@@ -69,7 +69,7 @@ const Portfolio = () => {
                                         <div
                                             className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
                                             <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
+                                                <p className="text-white fw-400 line-height-7">Inilah.com</p>
                                                 <a href="portfolioDetails.html"
                                                     className="h4 text-white fw-600 line-height-3">
                                                     The best way to impress your web
@@ -84,7 +84,7 @@ const Portfolio = () => {
                                         <div
                                             className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
                                             <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
+                                                <p className="text-white fw-400 line-height-7">Javabica</p>
                                                 <a href="portfolioDetails.html"
                                                     className="h4 text-white fw-600 line-height-3">
                                                     The best way to impress your web
@@ -99,7 +99,7 @@ const Portfolio = () => {
                                         <div
                                             className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
                                             <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
+                                                <p className="text-white fw-400 line-height-7">Nifty Educate</p>
                                                 <a href="portfolioDetails.html"
                                                     className="h4 text-white fw-600 line-height-3">
                                                     The best way to impress your web
@@ -114,7 +114,7 @@ const Portfolio = () => {
                                         <div
                                             className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
                                             <div className="position-absolute mx-auto portfolio-card-overlay-contents">
-                                                <p className="text-white fw-400 line-height-7">Graphic Design</p>
+                                                <p className="text-white fw-400 line-height-7">Finalstrip</p>
                                                 <a href="portfolioDetails.html"
                                                     className="h4 text-white fw-600 line-height-3">
                                                     The best way to impress your web
