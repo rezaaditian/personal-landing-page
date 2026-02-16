@@ -38,20 +38,16 @@ const Footer = () => {
                                 <div className="footer-col-links">
                                     <ul className="footer-col-link-container">
                                         <li className="footer-link-item">
-                                            <a className="fw-400 p line-height-7 text-white" href="services.html">UI/UX
-                                                Design</a>
+                                            <a className="fw-400 p line-height-7 text-white" href="services.html">SaaS Development</a>
                                         </li>
                                         <li className="footer-link-item">
-                                            <a className="fw-400 p line-height-7 text-white" href="services.html">Mobile
-                                                App</a>
+                                            <a className="fw-400 p line-height-7 text-white" href="services.html">API Integration</a>
                                         </li>
                                         <li className="footer-link-item">
-                                            <a className="fw-400 p line-height-7 text-white" href="services.html">Graphics
-                                                Design</a>
+                                            <a className="fw-400 p line-height-7 text-white" href="services.html">Web Development</a>
                                         </li>
                                         <li className="footer-link-item">
-                                            <a className="fw-400 p line-height-7 text-white" href="services.html">Web
-                                                Developer</a>
+                                            <a className="fw-400 p line-height-7 text-white" href="services.html">Vibe Coding Cleanup</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,16 +90,10 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-contact">
                                     <div className="footer-contact-item d-flex align-items-center mb-20">
-                                        <i className="fa-solid fa-location-dot footer-contact-icon mr-10 orange-color"></i>
-                                        <p className="p text-white line-height-7 fw-400">
-                                            202 Dog Hill Lane Beloit,KS 67420
-                                        </p>
-                                    </div>
-                                    <div className="footer-contact-item d-flex align-items-center mb-20">
                                         <i className="fa-solid fa-phone-volume footer-contact-icon mr-10 orange-color"></i>
                                         <p>
                                             <a className="p text-white line-height-7 fw-400" href="tel:1-800-915-6270">
-                                                1-800-915-6270
+                                                +62 895-3420-01544
                                             </a>
                                         </p>
                                     </div>
