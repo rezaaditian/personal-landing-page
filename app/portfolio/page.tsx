@@ -54,7 +54,7 @@ const PortfolioPage = () => {
                                                 className={`portfolio-massonary-items mix ${item.category} position-relative`}
                                             >
                                                 <img
-                                                    className="img-fluid"
+                                                    className="img-fluid object-cover"
                                                     src={item.image}
                                                     alt={item.title}
                                                 />
