@@ -11,7 +11,6 @@ export default function Home() {
     <main className="home overflow-x-hidden">
       <Navbar />
         <Banner />
-
         <About/>
         <Service/>
         <Portfolio/>
