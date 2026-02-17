@@ -35,6 +35,7 @@ const Banner = () => {
 
                                 <a
                                 className="btn_effect btn home-banner-btn orange-btn mt-50 mb-4"
+                                target="_blank"
                                 href="/resume.pdf"
                                 >
                                 <span className="z-1 position-relative">Download My CV</span>

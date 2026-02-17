@@ -83,7 +83,7 @@ const Navbar = () => {
                     </div>
                     {/* <!-- header button --> */}
                     <div className="header-btn-wrapper">
-                        <Link className="btn orange-btn btn_effect" href="/contact">
+                        <Link className="btn orange-btn btn_effect" target="_blank" href="https://api.whatsapp.com/send/?phone=62895342001544">
                             <span className="z-1 position-relative">contact me</span>
                         </Link>
                     </div>

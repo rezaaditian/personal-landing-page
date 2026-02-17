@@ -206,6 +206,21 @@ const PortfolioPage = () => {
                                                 </div>
                                             </div>
                                         </div>
+                                        <div className="portfolio-massonary-items mix web all position-relative">
+                                            <img className="img-fluid" src="img/portofolio/22.png" alt="portfolio img" />
+                                            <div className="portfolio-card-overlay w-100 position-absolute top-0">
+                                            </div>
+                                            <div
+                                                className="d-flex w-100 position-absolute bottom-0 left-0 justify-content-center align-items-center">
+                                                <div className="position-absolute mx-auto portfolio-card-overlay-contents">
+                                                    <p className="text-white fw-400 line-height-7">Furniro</p>
+                                                    <a href="portfolioDetails.html"
+                                                        className="h4 text-white fw-600 line-height-3">
+                                                        Furniture Online Store
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
