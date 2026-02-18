@@ -54,7 +54,7 @@ const About = () => {
                                             <img src="img/aboutIconTwo.png" alt="about icon two"/>
                                         </div>
                                         <div className="about-years-experience">
-                                            <h4 className="fw-700 orange-color h4"><span className="counter">7</span>+</h4>
+                                            <h4 className="fw-700 orange-color h4"><span className="counter">5</span>+</h4>
                                             <h4 className="fw-500 black-color h4">Year of experience</h4>
                                         </div>
                                     </div>
