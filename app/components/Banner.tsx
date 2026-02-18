@@ -36,9 +36,9 @@ const Banner = () => {
                                 <a
                                 className="btn_effect btn home-banner-btn orange-btn mt-50 mb-4"
                                 target="_blank"
-                                href="/resume.pdf"
+                                href="https://www.upwork.com/freelancers/~01ed82a606622596e3"
                                 >
-                                <span className="z-1 position-relative">Download My CV</span>
+                                <span className="z-1 position-relative">Upwork Profile</span>
                                 </a>
                                 <div className="banner-particle-one-container">
                                     <img className="position-absolute banner-particle-one d-none d-lg-inline"

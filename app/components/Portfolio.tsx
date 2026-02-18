@@ -9,9 +9,12 @@ import {
     type PortfolioCategory,
 } from "@/app/data/portfolioData";
 
+const HOMEPAGE_PORTFOLIO_LIMIT = 6; // 2 baris × 3 kolom untuk preview di homepage
+
 const Portfolio = () => {
     const [activeFilter, setActiveFilter] = useState<PortfolioCategory>("all");
     const filteredItems = filterPortfolioItems(PORTFOLIO_ITEMS, activeFilter);
+    const displayedItems = filteredItems.slice(0, HOMEPAGE_PORTFOLIO_LIMIT);
 
     return (
         <section className="portfolio">
@@ -42,7 +45,7 @@ const Portfolio = () => {
                                     ))}
                                 </div>
                                 <div className="portfolio-massonary-container">
-                                    {filteredItems.map((item) => (
+                                    {displayedItems.map((item) => (
                                         <div
                                             key={item.id}
                                             className={`portfolio-massonary-items mix ${item.category} position-relative`}
