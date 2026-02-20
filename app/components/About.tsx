@@ -12,7 +12,7 @@ const About = () => {
                                     <img className="img-fluid" src="img/about.png" alt="about image"/>
                                 </div>
                             </div>
-                            {/* <div className="about-text-col col-12 col-lg-6">
+                            <div className="about-text-col col-12 col-lg-6">
                                 <div className="about-text-top">
                                     <div className="section-heading">
                                         <div className="sub-heading d-flex align-items-center">
@@ -105,7 +105,7 @@ const About = () => {
                                     className="btn btn_effect home-banner-btn orange-btn mt-50" target="_blank" href="resume.html"><span
                                         className="position-relative z-1">Download My CV</span>
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

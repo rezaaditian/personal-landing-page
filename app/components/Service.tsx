@@ -17,7 +17,7 @@ const Service = () => {
                         </h2>
                     </div>
 
-                    {/* <div className="service-grid-container mt-50 row-mobile-margin">
+                    <div className="service-grid-container mt-50 row-mobile-margin">
 
                         <div className="service-grid-item text-center">
                         <img className="service-item-img" src="img/serviceOne.png" alt="service-img-one" />
@@ -82,7 +82,7 @@ const Service = () => {
                             Integrating AI and automation into web systems to build smarter, more efficient, and intelligent applications.
                         </p>
                         </div>
-                    </div> */}
+                    </div>
                     </div>
                 </div>
             </div>
