@@ -11,7 +11,7 @@ import {
     type PortfolioCategory,
 } from "@/app/data/portfolioData";
 
-const PortfolioPage = () => {
+const TestPortfolioPage = () => {
     const [activeFilter, setActiveFilter] = useState<PortfolioCategory>("all");
     const filteredItems = filterPortfolioItems(PORTFOLIO_ITEMS, activeFilter);
 
@@ -26,10 +26,10 @@ const PortfolioPage = () => {
                                 <div className="section-heading-middle">
                                     <div className="sub-heading d-flex align-items-center mx-auto">
                                         <img src="img/orangeDot.png" alt="orange-dot" />
-                                        <p>My Portfolio</p>
+                                        <p>Ini portfolio untuk testing</p>
                                     </div>
                                     <h2 className="black-color line-height-3 h2 text-uppercase text-center">
-                                        VISIT MY PORTFOLIO
+                                        Cek my other portfolio broo
                                     </h2>
                                 </div>
                                 <div className="mt-50 row-mobile-margin">
@@ -86,4 +86,4 @@ const PortfolioPage = () => {
     );
 };
 
-export default PortfolioPage;
+export default TestPortfolioPage;

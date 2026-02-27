@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+// import Footer from "../components/Footer";
+// import Navbar from "../components/Navbar";
 import {
     PORTFOLIO_FILTERS,
     PORTFOLIO_ITEMS,
@@ -17,7 +17,7 @@ const PortfolioPage = () => {
 
     return (
         <div className="portfolio-page">
-            <Navbar />
+            {/* <Navbar /> */}
             <section className="portfolio-archieve">
                 <div className="container">
                     <div className="row">
@@ -81,7 +81,7 @@ const PortfolioPage = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
