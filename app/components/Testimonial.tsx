@@ -105,7 +105,7 @@ const Testimonial = () => {
                                                 </div>
                                             </div>
                                             <p className="p line-height-7 fw-400 secondary-black mt-20">
-                                                &quot;Great to work with, Greatly appreciated his suggestions. Went above and beyond to make changes with the back and despite not originally hired for it&quot;
+                                                &quot;Great to work with him, Greatly appreciated his suggestions. Went above and beyond to make changes with the back and despite not originally hired for it&quot;
                                             </p>
                                         </div>
                                     </div>

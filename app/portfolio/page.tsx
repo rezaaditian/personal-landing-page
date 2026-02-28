@@ -65,7 +65,7 @@ const PortfolioPage = () => {
                                                             {item.subtitle}
                                                         </p>
                                                         <Link
-                                                            href={item.link}
+                                                            href=''
                                                             className="h4 text-white fw-600 line-height-3"
                                                         >
                                                             {item.title}
