@@ -23,7 +23,7 @@ const TestPortfolioPage = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="portfolio-wrapper">
-                                {/* <div className="section-heading-middle">
+                                <div className="section-heading-middle">
                                     <div className="sub-heading d-flex align-items-center mx-auto">
                                         <img src="img/orangeDot.png" alt="orange-dot" />
                                         <p>Ini portfolio untuk testing</p>
@@ -31,8 +31,8 @@ const TestPortfolioPage = () => {
                                     <h2 className="black-color line-height-3 h2 text-uppercase text-center">
                                         Cek my other portfolio broo
                                     </h2>
-                                </div> */}
-                                {/* <div className="mt-50 row-mobile-margin">
+                                </div>
+                                <div className="mt-50 row-mobile-margin">
                                     <div className="controls d-flex justify-content-center gap-1 gap-lg-4 mb-45 flex-wrap">
                                         {PORTFOLIO_FILTERS.map(({ value, label }) => (
                                             <button
@@ -75,7 +75,7 @@ const TestPortfolioPage = () => {
                                             </div>
                                         ))}
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
                     </div>
