@@ -18,7 +18,7 @@ const TestPortfolioPage = () => {
     return (
         <div className="portfolio-page">
             <Navbar />
-            <section className="portfolio-archieve">
+            {/* <section className="portfolio-archieve">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -80,7 +80,7 @@ const TestPortfolioPage = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <Footer />
         </div>
     );
